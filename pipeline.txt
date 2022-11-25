@@ -21,5 +21,10 @@ pipeline {
                     echo "This step is monitoring"
                 }
             }
+            stage('new stage') {
+                steps{
+                    echo "new stage created"
+                }
+            }
         }
 }
